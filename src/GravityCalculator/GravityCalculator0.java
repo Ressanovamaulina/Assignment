@@ -1,4 +1,6 @@
-public class GravityCalculator {
+package GravityCalculator;
+
+public class GravityCalculator0 {
     public static void main(String[] arguments) {
         double gravity = -9.81;  // Earth's gravity in m/s^2
         double initialVelocity = 0.0;
