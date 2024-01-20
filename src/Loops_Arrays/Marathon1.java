@@ -1,6 +1,6 @@
 package Loops_Arrays;
 
-public class Marathon {
+public class Marathon1 {
 
     public static void main(String [] args)
     {
