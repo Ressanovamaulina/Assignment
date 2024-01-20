@@ -1,6 +1,6 @@
-package FooCorporation;
+package MoreTypes_Methods_Conditionals;
 
-public class FooCorporation2 {
+public class FooCorp2 {
     final static double minimumWage = 8.0;
     final static int maxHours = 60;
     public static void main(String[] args) {

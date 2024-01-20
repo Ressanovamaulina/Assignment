@@ -1,22 +1,18 @@
 package GravityCalculator;
 
 public class GravityCalculator1 {
-    public static void main (String[] args){
-        double gravity = -9.81;
-        double initialVelocity = 0.0;
-        double fallingTime = 10.0;
-        double initialPosition = 0.0;
-        double finalPosition = .5 * gravity * fallingTime * fallingTime;
-        //finalPosition = finalPosition + initialVelocity * fallingTime;
-        //finalPosition = finalPosition + initialPosition;
-        //or
-        finalPosition += initialVelocity * fallingTime;
-        finalPosition += initialPosition;
 
-        System.out.println("An object's position after " + fallingTime + " second is " + finalPosition + " m. ");
+    public static void main (String[] arguments) {
+        double a = -9.81; //Accelaration (m/s2)
+        double t = 10; //Time(s)
+        double vi = 0; //Initial Velocity (m/s)
+        double xi = 0; //Initial position
+        double x;
 
 
+        x = (0.5 * (a * (t * t) + (vi * t) + (xi)));
 
 
+        System.out.println("The correct value is " + x + " m ");
     }
 }

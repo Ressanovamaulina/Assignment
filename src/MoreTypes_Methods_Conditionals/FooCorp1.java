@@ -1,8 +1,8 @@
-package FooCorporation;
+package MoreTypes_Methods_Conditionals;
 
 import java.util.Scanner;
 
-public class FooCorporation {
+public class FooCorp1 {
 
     //An employee gets paid (hours worked) × (base pay), for each hour up to 40 hours.
    // For every hour over 40, they get overtime = (base pay) × 1.5.
